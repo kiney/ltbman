@@ -108,7 +108,7 @@ HO  107  Wer zuletzt lacht…  Der makabre Magier  1985-10-11  6.2  DM  3.5
 HO  108  Donald ist im Bilde  Künstlerpech  1985-11-29  6.2  DM  3.5
 BO  109  Das Lied der Prärie     1986-01-10  6.2  DM  3.5
 HO  110  Donald ist mein Typ!  Gittas Zauberkünste  1986-02-21  6.2  DM  3.5
-NO  111  Dagobert dreht voll auf  Das Zauberwasser  1986-04-04  6.2  DM  3.5
+HO  111  Dagobert dreht voll auf  Das Zauberwasser  1986-04-04  6.2  DM  3.5
 BO  112  Mit Pauken und Trompeten  Goofy Holmes  1986-05-16  6.2  DM  3.5
 HO  113  Manege frei für Donald Duck!  Die Goldsonde  1986-07-04  6.2  DM  3.5
 HO  114  Rallye Entenhausen  Die Trompeter von Fort Attacke  1986-08-15  6.2  DM  3.5
@@ -129,12 +129,12 @@ HO  128  Goldregen bringt Segen  Der Duft des Geldes  1988-06-07  6.2  DM  3.5
 HO  129  Einer spielt falsch!  Der Golfstrom  1988-07-19  6.2  DM  3.5
 HO  130  Olympisches Fieber     1988-08-30  6.2  DM  3.5
 HO  131  Herzlichen Glückwunsch Micky!  60 Jahre Micky!  1988-10-11  6.2  DM  3.5
-BO  132  Im Reich der Sterne     1988-11-29  6.2  DM  3.5
+BO?  132  Im Reich der Sterne     1988-11-29  6.2  DM  3.5
 HO  133  Die neue Eiszeit  Attila der Hunnenkönig  1989-01-10  6.2  DM  3.5
 BO  134  Traum oder Wirklichkeit?  Der schwebende Geldspeicher  1989-02-28  6.2  DM  3.5
 NO  135  Donald im Pech  Kampf um den Mondsand  1989-04-11  6.2  DM  3.5
 HOHO  136  Heißes Gold     1989-05-23  6.2  DM  3.5
-NO  137  Das güldene Faß     1989-07-04  6.2  DM  3.5
+BO  137  Das güldene Faß     1989-07-04  6.2  DM  3.5
 HO  138  Donald ganz locker  Ein aufdringlicher Begleiter  1989-08-15  6.2  DM  3.5
 HO  139  Voll in Fahrt  Invasion der Robot-Eulen  1989-09-26  6.2  DM  3.5
 NO  140  Der ewige Zweite…     1989-11-21  6.2  DM  3.5
@@ -191,7 +191,7 @@ HO  190  Prallball im Weltall     1993-12-14  6.5  DM  3.5
 NO  191  Phantomias auf Abwegen?     1994-01-11  6.5  DM  3.5
 HO  192  Der Wüstenwurm     1994-02-08  6.5  DM  3.5
 NO  193  Der Gelbe Baron und sein Elastilon     1994-03-08  6.5  DM  3.5
-NO  194  Das Elixier der ewigen Jugend     1994-04-12  6.5  DM  3.5
+BO  194  Das Elixier der ewigen Jugend     1994-04-12  6.5  DM  3.5
 NO  195  Der Wildbach-Marathon     1994-05-03  6.5  DM  3.5
 HO  196  60 Jahre Superstar     1994-05-17  6.5  DM  3.5
 NO  197  Drachengold     1994-06-07  6.5  DM  3.5
@@ -279,8 +279,8 @@ HO  278  Der König der Tiefe     2000-10-10  6.8  DM  2
 HO  279  Eine lästige Allergie     2000-11-01  6.8  DM  2
 NO  280  Der Herr des Dschungels     2000-12-05  6.8  DM  2
 NO  281  Gefangen in Darkmoor     2001-01-02  6.8  DM  2
-NO  282  Am Anfang war das Eis     2001-01-30  6.8  DM  2
-NO  283  Die geheimnisvolle Maske     2001-02-28  6.8  DM  2
+BO  282  Am Anfang war das Eis     2001-01-30  6.8  DM  2
+BO  283  Die geheimnisvolle Maske     2001-02-28  6.8  DM  2
 NO  284  Ein verrücktes Pferderennen     2001-03-27  6.8  DM  2
 NO  285  Die Suche nach dem Superkraut     2001-04-24  6.8  DM  2
 NO  286  Unter Wölfen     2001-05-22  6.8  DM  2
@@ -337,7 +337,7 @@ NO  336  Gefangen in der Wüste     2005-03-29  4.2  Euro  2
 NO  337  Die Superhelden     2005-04-26  4.2  Euro  2
 NO  338  Die Weltraumritter     2005-05-19  4.2  Euro  2
 NO  339  Ferien mit den Ducks     2005-06-21  4.2  Euro  2
-NO  340  Urlaubsgrüße aus Entenhausen     2005-07-19  4.2  Euro  2
+BO  340  Urlaubsgrüße aus Entenhausen     2005-07-19  4.2  Euro  2
 NO  341  Club der Milliardäre     2005-08-16  4.2  Euro  2
 NO  342  Gefangen im Spukschloss     2005-09-13  4.2  Euro  2
 MO  343  Ein Fall für Detektiv Duck     2005-10-11  4.2  Euro  2
@@ -462,9 +462,15 @@ MO  461  Marsch durch Mittelwelt
 XO  462  ?
 MO  463  Eiskalt erwischt
 MO  464  Die Jagd nach dem Falken
-??  465
-??  466
+HO  465
+HO  466
 BO  467  Moby Duck
+??  468
+BO  469  Start in den Sommer
+HO  470
+HO  471
+HO  472
+
 # habe den Header nach unten gepackt damit die Zeilennummern den Heftnummern entsprechen, sonst fehlergefahr.
 # TODO: diesen Kommentar wieder entfernen
 
