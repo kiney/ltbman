@@ -34,7 +34,7 @@ HO  33  Ein Milliardär hat´s schwer  Der Schatz des Odysseus  1975-04-14  4  D
 NO  34  Supermicky  Der Mann im Mond  1975-05-01  4  DM  10
 NO  35  Aus Onkel Donalds Memoiren  Bräutigam wider Willen  1975-08-11  4  DM  10
 HO  36  Onkel Donald auf heißer Spur  Der Rasende Kurier  1975-10-13  4  DM  10
-MO  37  Ehrlich spart am längsten  Ein harter Kampf  1975-11-24  4  DM  10
+HOHO  37  Ehrlich spart am längsten  Ein harter Kampf  1975-11-24  4  DM  10
 HO  38  Donald hier - Donald da…  Die durchsichtigen Berge  1976-02-09  4.2  DM  8
 NO  39  Eins, zwei, drei - große Hexerei  Der Hexenblitzableiter  1976-04-12  4.2  DM  8
 HO  40  Auf geht´s, Micky  Der Kompaß des großen Khan  1976-06-14  4.2  DM  8
@@ -42,9 +42,9 @@ NO  41  Donald mal ganz anders  Jetzt kommt Phantomias  1976-08-09  4.2  DM  10
 HO  42  Micky denkt am schnellsten  Flug ins Ungewisse  1976-10-01  4.2  DM  8
 HO  43  Unterwegs in Sachen Gold  Der Schatz des Pharaos  1976-11-22  4.2  DM  8
 HO  44  Phantomias fliegt wieder  Phantomias ist wieder da!  1977-01-01  4.5  DM  8
-MO  45  Bahn frei für Donald!  Die Weltraum-Kur  1977-03-01  4.5  DM  6
+HO  45  Bahn frei für Donald!  Die Weltraum-Kur  1977-03-01  4.5  DM  6
 HO  46  Micky hat den Bogen raus  Das Geheimnis des hohlen Berges  1977-05-01  4.5  DM  6
-MO  47  Hoppla, die Ducks kommen!  Abenteuer in Mexiko  1977-06-01  4.5  DM  6
+HO  47  Hoppla, die Ducks kommen!  Abenteuer in Mexiko  1977-06-01  4.5  DM  6
 HO  48  Volltreffer für Micky  Der rote Drache  1977-07-11  4.5  DM  6
 NO  49  Ohne Fleiß kein Preis  Der Kalif des Halbmonds  1977-09-12  4.5  DM  6
 HO  50  Dagobert gewinnt immer  Das verflixte Elixier  1977-11-14  4.5  DM  6
@@ -53,7 +53,7 @@ NO  52  Micky immer auf Achse  Im geheimer Mission  1978-03-01  4.5  DM  6
 HO  53  Dagobert, der Milliardenakrobat  Die Bombastium-Expedition  1978-04-24  4.5  DM  6
 HO  54  Micky der Meisterdetektiv  Die grüne Sphinx  1978-06-05  4.5  DM  6
 HO  55  Dagobert macht Geschichten  Der Löwenbändiger  1978-07-10  4.5  DM  6
-NO  56  Achtung - Fertig - Los!  Atlantis in Gefahr  1978-09-11  4.5  DM  6
+MO  56  Achtung - Fertig - Los!  Atlantis in Gefahr  1978-09-11  4.5  DM  6
 HO  57  Phantomias gegen Phantomime     1978-11-13  4.5  DM  10
 HO  58  Donald, der Held des Tages  Donald, Prinz von Duckenmark  1979-01-08  4.5  DM  6
 HO  59  Frisch erzählt ist halb gewonnen  Die Zauberschuhe  1979-03-12  4.5  DM  6
@@ -73,7 +73,7 @@ HO  72  Viel Lärm um Donald  Der Geist aus der Ming-Vase  1981-01-12  5  DM  4'
 HO  73  Micky greift ein  Das falsche Gespenst  1981-03-09  5  DM  4
 HO  74  Der Stolz der Familie  Linsen aus Babylonien  1981-05-11  5  DM  4
 HO  75  Ferien mit Phantomias  Phantomias greift durch!  1981-06-15  5  DM  4
-BO  76  Ein Fall für Micky  Die Kralle der Kali  1981-07-13  5  DM  4
+HO  76  Ein Fall für Micky  Die Kralle der Kali  1981-07-13  5  DM  4
 HO  77  Gestatten, mein Name ist Duck!  Agent QQ7  1981-09-14  5  DM  4
 HO  78  Onkel Dagobert gibt sich die Ehre  Gefährliche Versteckspiele  1981-11-09  5  DM  4
 HO  79  Dagobert Duck auf Taler-Safari  Gnadenlose Gegner  1982-01-11  5  DM  4
@@ -88,7 +88,7 @@ HO  87  Micky ist wieder da!  Das grüne Feuer  1983-03-14  5.3  DM  4
 HO  88  Donald sticht in See  Der Schwarze Korsar  1983-05-19  5.3  DM  4
 HO  89  Der Boß bin ich!  Onkel Dagobert hoch drei  1983-06-13  5.3  DM  4
 HOHO  90  Mickys Mondfahrt  Mondbasis in Gefahr!  1983-07-11  5.3  DM  4
-BO  91  Der Weg zum Erfolg  Das singende Totem  1983-09-12  5.6  DM  4
+HO  91  Der Weg zum Erfolg  Das singende Totem  1983-09-12  5.6  DM  4
 HO  92  Donalds bunte Welt  Der Siegerkuß  1983-11-14  5.6  DM  4
 HO  93  Die Macht des Goldes  Glanz und Gloria derer von Duck  1984-01-09  5.6  DM  4
 HO  94  Micky groß in Form  Unter falschen Verdacht  1984-03-12  5.6  DM  4
@@ -105,11 +105,11 @@ HO  104  Dagobert, das Finanzgenie  Der magische Zylinder  1985-05-24  5.9  DM  
 HO  105  Ich bin die Nummer Eins  Andere Länder, andere Sitten  1985-07-05  5.9  DM  3.5
 HO  106  Donald der Tausendsassa  Der Tüpfelwal  1985-08-23  5.9  DM  3.5
 HO  107  Wer zuletzt lacht…  Der makabre Magier  1985-10-11  6.2  DM  3.5
-HO  108  Donald ist im Bilde  Künstlerpech  1985-11-29  6.2  DM  3.5
-BO  109  Das Lied der Prärie     1986-01-10  6.2  DM  3.5
+MO  108  Donald ist im Bilde  Künstlerpech  1985-11-29  6.2  DM  3.5
+HO  109  Das Lied der Prärie     1986-01-10  6.2  DM  3.5
 HO  110  Donald ist mein Typ!  Gittas Zauberkünste  1986-02-21  6.2  DM  3.5
-HO  111  Dagobert dreht voll auf  Das Zauberwasser  1986-04-04  6.2  DM  3.5
-BO  112  Mit Pauken und Trompeten  Goofy Holmes  1986-05-16  6.2  DM  3.5
+MO  111  Dagobert dreht voll auf  Das Zauberwasser  1986-04-04  6.2  DM  3.5
+HO  112  Mit Pauken und Trompeten  Goofy Holmes  1986-05-16  6.2  DM  3.5
 HO  113  Manege frei für Donald Duck!  Die Goldsonde  1986-07-04  6.2  DM  3.5
 HO  114  Rallye Entenhausen  Die Trompeter von Fort Attacke  1986-08-15  6.2  DM  3.5
 HO  115  Riesenspaß beim Ringelpiez  Millionen mit Melonen  1986-09-30  6.2  DM  3.5
@@ -131,17 +131,17 @@ HO  130  Olympisches Fieber     1988-08-30  6.2  DM  3.5
 HO  131  Herzlichen Glückwunsch Micky!  60 Jahre Micky!  1988-10-11  6.2  DM  3.5
 BO?  132  Im Reich der Sterne     1988-11-29  6.2  DM  3.5
 HO  133  Die neue Eiszeit  Attila der Hunnenkönig  1989-01-10  6.2  DM  3.5
-BO  134  Traum oder Wirklichkeit?  Der schwebende Geldspeicher  1989-02-28  6.2  DM  3.5
-NO  135  Donald im Pech  Kampf um den Mondsand  1989-04-11  6.2  DM  3.5
+HO  134  Traum oder Wirklichkeit?  Der schwebende Geldspeicher  1989-02-28  6.2  DM  3.5
+HO  135  Donald im Pech  Kampf um den Mondsand  1989-04-11  6.2  DM  3.5
 HOHO  136  Heißes Gold     1989-05-23  6.2  DM  3.5
-BO  137  Das güldene Faß     1989-07-04  6.2  DM  3.5
+HO  137  Das güldene Faß     1989-07-04  6.2  DM  3.5
 HO  138  Donald ganz locker  Ein aufdringlicher Begleiter  1989-08-15  6.2  DM  3.5
 HO  139  Voll in Fahrt  Invasion der Robot-Eulen  1989-09-26  6.2  DM  3.5
 NO  140  Der ewige Zweite…     1989-11-21  6.2  DM  3.5
 NO  141  Der Tiger von Masalia     1990-01-09  6.2  DM  3.5
 NO  142  Goldene Träume     1990-02-20  6.2  DM  3.5
 HO  143  Das Geheimnis der Silberleuchter     1990-02-20  6.5  DM  3.5
-BO  144  Phantomias und Bubble Billy  Der Geist des Mandarins  1990-03-20  6.5  DM  3.5
+HO  144  Phantomias und Bubble Billy  Der Geist des Mandarins  1990-03-20  6.5  DM  3.5
 HO  145  Das Talermonster     1990-04-24  6.5  DM  3.5
 HO  146  Die Sportskanonen  Sportlich, sportlich…  1990-05-22  6.5  DM  3.5
 HO  147  Gold unter Wasser  Das geheimnisvolle Geisterhaus  1990-06-19  6.5  DM  3.5
@@ -169,10 +169,10 @@ HO  168  Kampf der Galaxien     1992-03-10  6.5  DM  3.5
 NO  169  Die schwimmende Insel     1992-04-14  6.5  DM  3.5
 NO  170  Eine Braut zuviel     1992-05-12  6.5  DM  3.5
 HO  171  Der Schmutzgeier ist wieder da     1992-06-09  6.5  DM  3.5
-HO  172  25 TOLLE JAHRE     1992-06-23  6.5  DM  3.5
+HOHO  172  25 TOLLE JAHRE     1992-06-23  6.5  DM  3.5
 HO  173  GRRR!     1992-07-14  6.5  DM  3.5
 NO  174  Olympia in Entenhausen     1992-08-11  6.5  DM  3.5
-BO  175  Jubiläums-Ausgabe     1992-09-08  6.5  DM  3.5
+HO  175  Jubiläums-Ausgabe     1992-09-08  6.5  DM  3.5
 NO  176  Das Tal der sieben Sonnen     1992-10-13  6.5  DM  3.5
 HO  177  Die Jagd auf Karte Nr. 1     1992-11-10  6.5  DM  3.5
 HO  178  Der verhinderte Entdecker     1992-12-08  6.5  DM  3.5
@@ -182,7 +182,7 @@ NO  181  Der Traum von Großen Onkel     1993-03-09  6.5  DM  3.5
 HOHO  182  Die Suche nach dem Feuer     1993-04-13  6.5  DM  3.5
 HO  183  Die Zauberglocke     1993-05-11  6.5  DM  3.5
 HO  184  Eine fantastische Reise     1993-06-08  6.5  DM  3.5
-HO  185  Das Wunderpferd     1993-07-13  6.5  DM  3.5
+HOHO  185  Das Wunderpferd     1993-07-13  6.5  DM  3.5
 HO  186  Graf Frost und das Zepter der Zeit     1993-08-10  6.5  DM  3.5
 HO  187  Der Held der Pharaonen     1993-09-14  6.5  DM  3.5
 HO  188  Die Perle der Südsee     1993-10-12  6.5  DM  3.5
@@ -191,14 +191,14 @@ HO  190  Prallball im Weltall     1993-12-14  6.5  DM  3.5
 NO  191  Phantomias auf Abwegen?     1994-01-11  6.5  DM  3.5
 HO  192  Der Wüstenwurm     1994-02-08  6.5  DM  3.5
 NO  193  Der Gelbe Baron und sein Elastilon     1994-03-08  6.5  DM  3.5
-BO  194  Das Elixier der ewigen Jugend     1994-04-12  6.5  DM  3.5
+HO  194  Das Elixier der ewigen Jugend     1994-04-12  6.5  DM  3.5
 NO  195  Der Wildbach-Marathon     1994-05-03  6.5  DM  3.5
 HO  196  60 Jahre Superstar     1994-05-17  6.5  DM  3.5
 NO  197  Drachengold     1994-06-07  6.5  DM  3.5
 NO  198  Das grüne Gewissen     1994-07-12  6.5  DM  3.5
 NO  199  Abenteuer in Pyramontanien     1994-08-09  6.5  DM  3.5
 NO  200  Jubiläums-Ausgabe     1994-09-13  6.5  DM  3.5
-HO  201  Das Hexenlicht     1994-10-11  6.5  DM  3.5
+MO  201  Das Hexenlicht     1994-10-11  6.5  DM  3.5
 HO  202  Ein wahrer Held     1994-11-08  6.5  DM  3.5
 HO  203  Der Ritter ohne Furcht und Adel     1994-12-13  6.5  DM  3.5
 HOHO  204  Der Palast des Dagomesch     1995-01-10  6.8  DM  2
@@ -206,7 +206,7 @@ HO  205  Die Adelsprüfung     1995-02-07  6.8  DM  2
 HO  206  Im Indianerland     1995-03-07  6.8  DM  2
 HO  207  Der Prügelknabe     1995-04-04  6.8  DM  2
 HO  208  Die Wächter der Zeit     1995-05-02  6.8  DM  2
-HO  209  Der gewaltige Zing Zong     1995-06-06  6.8  DM  2
+HOHO  209  Der gewaltige Zing Zong     1995-06-06  6.8  DM  2
 HO  210  Eine tolle Entdeckung     1995-07-04  6.8  DM  2
 HO  211  Der Glücksstern     1995-08-01  6.8  DM  2
 HO  212  Wo ist Onkel Dagobert?     1995-09-05  6.8  DM  2
@@ -219,68 +219,68 @@ HO  218  Die Glückstaler-Allergie     1996-03-05  6.8  DM  2
 NO  219  Der Zauber-Zylinder     1996-04-02  6.8  DM  2
 HO  220  Das Geheimnis des 313     1996-04-30  6.8  DM  2
 NO  221  Das Buch der Wünsche     1996-05-28  6.8  DM  2
-NO  222  Der erste Held von Olympia     1996-06-25  6.8  DM  2
-HO  223  Die Zeitwanne     1996-07-23  6.8  DM  2
+MO  222  Der erste Held von Olympia     1996-06-25  6.8  DM  2
+HOHO  223  Die Zeitwanne     1996-07-23  6.8  DM  2
 NO  224  Schwebende Schurken     1996-08-20  6.8  DM  2
 HO  225  Jubiläums-Ausgabe     1996-09-17  6.8  DM  2
 HO  226  Der Geist aus der Kanne     1996-10-15  6.8  DM  2
 NO  227  Scherben bringen Glück     1996-11-12  6.8  DM  2
 NO  228  Der Goldene Preis     1996-12-10  6.8  DM  2
 NO  229  Der Gangsterschatz     1997-01-07  6.8  DM  2
-NO  230  30 Jahre Lustiges Taschenbuch     1997-01-21  6.8  DM  2
-NO  231  Phantomias und die Zauberer     1997-02-04  6.8  DM  2
-HO  232  Das Stimmwunder     1997-03-04  6.8  DM  2
-NO  233  Zeit ist Geld!     1997-04-01  6.8  DM  2
-NO  234  Die Jagd nach dem Sumpfmonster     1997-05-06  6.8  DM  2
-NO  235  Der Schulbus-Fahrer     1997-06-03  6.8  DM  2
-HO  236  50 Jahre Onkel Dagobert     1997-07-01  6.8  DM  2
-NO  237  Im Land der Saurier     1997-08-05  6.8  DM  2
-HO  238  Phantomias enttarnt?     1997-09-02  6.8  DM  2
-NO  239  60 turbulente Jahre mit Tick, Trick und Track     1997-10-07  6.8  DM  2
-NO  240  Die glorreiche Gänse-Garde     1997-11-04  6.8  DM  2
-HO  241  Achtung, Aufnahme!     1997-12-02  6.8  DM  2
-NO  242  Wettlauf der Erben     1998-01-05  6.8  DM  2
-HO  243  Heisse Tage in Afrika     1998-02-03  6.8  DM  2
-HO  244  Der Schatz der Geisterberge     1998-03-03  6.8  DM  2
+HO  230  30 Jahre Lustiges Taschenbuch     1997-01-21  6.8  DM  2
+HO  231  Phantomias und die Zauberer     1997-02-04  6.8  DM  2
+HOHO  232  Das Stimmwunder     1997-03-04  6.8  DM  2
+HO  233  Zeit ist Geld!     1997-04-01  6.8  DM  2
+HO  234  Die Jagd nach dem Sumpfmonster     1997-05-06  6.8  DM  2
+HO  235  Der Schulbus-Fahrer     1997-06-03  6.8  DM  2
+MO  236  50 Jahre Onkel Dagobert     1997-07-01  6.8  DM  2
+HO  237  Im Land der Saurier     1997-08-05  6.8  DM  2
+MOHO  238  Phantomias enttarnt?     1997-09-02  6.8  DM  2
+MO  239  60 turbulente Jahre mit Tick, Trick und Track     1997-10-07  6.8  DM  2
+MO  240  Die glorreiche Gänse-Garde     1997-11-04  6.8  DM  2
+MOHO  241  Achtung, Aufnahme!     1997-12-02  6.8  DM  2
+MOHO  242  Wettlauf der Erben     1998-01-05  6.8  DM  2
+MOHO  243  Heisse Tage in Afrika     1998-02-03  6.8  DM  2
+MOHO  244  Der Schatz der Geisterberge     1998-03-03  6.8  DM  2
 HO  245  Der Regenmacher     1998-03-31  6.8  DM  2
-HO  246  Falsches Spiel mit Phantomias     1998-04-28  6.8  DM  2
-HO  247  Donaldo der Ballzauberer     1998-05-26  6.8  DM  2
-HO  248  Gefangen im Fürchtelforst     1998-06-23  6.8  DM  2
-HO  249  Der verrückte Professor     1998-06-21  6.8  DM  2
-HO  250  Jubiläums-Ausgabe     1998-08-18  6.8  DM  2
+HOHO  246  Falsches Spiel mit Phantomias     1998-04-28  6.8  DM  2
+HOHO  247  Donaldo der Ballzauberer     1998-05-26  6.8  DM  2
+HOHO  248  Gefangen im Fürchtelforst     1998-06-23  6.8  DM  2
+HOHO  249  Der verrückte Professor     1998-06-21  6.8  DM  2
+HOHO  250  Jubiläums-Ausgabe     1998-08-18  6.8  DM  2
 NO  251  Schatzsuche im Eis     1998-09-15  6.8  DM  2
-NO  252  Happy Bithday, Micky!     1998-10-01  6.8  DM  2
+MO  252  Happy Bithday, Micky!     1998-10-01  6.8  DM  2
 NO  253  Das große Wagenrennen     1998-11-10  6.8  DM  2
 NO  254  Geschäfte in Transsylvanien     1998-12-08  6.8  DM  2
 NO  255  Donald in Aktion     1999-01-05  6.8  DM  2
-MO  256  Die Vulkaninsel     1999-02-02  6.8  DM  2
+HO  256  Die Vulkaninsel     1999-02-02  6.8  DM  2
 NO  257  Der Zauberer von Hokapoka     1999-03-02  6.8  DM  2
 HO  258  Der Waldgeist     1999-03-30  6.8  DM  2
 HOHO  259  Die große Flut     1999-04-27  6.8  DM  2
-NO  260  Der Alptraum-Abwasch     1999-05-01  6.8  DM  2
+MO  260  Der Alptraum-Abwasch     1999-05-01  6.8  DM  2
 HO  261  Donald Duck - King of Comics     1999-06-22  6.8  DM  2
-NO  262  Dämonische Doppelgänger     1999-07-20  6.8  DM  2
+MO  262  Dämonische Doppelgänger     1999-07-20  6.8  DM  2
 NO  263  Eine irrwitzige Irrfahrt     1999-08-17  6.8  DM  2
 HO  264  30 Jahre fantastische Abenteuer mit Phantomias     1999-09-14  6.8  DM  2
 HO  265  Rennfahrer wider Willen     1999-10-12  6.8  DM  2
 HO  266  Ferien am Südpol     1999-11-09  6.8  DM  2
 HO  267  Ab ins Jahr 2000!     1999-12-07  6.8  DM  2
 HO  268  Jetzt schlägt´s 2000     2000-01-04  6.8  DM  2
-HO  269  Die Lichtdiebe von Kristalon     2000-02-01  6.8  DM  2
-HO  270  Der niesende Geldsack     2000-02-29  6.8  DM  2
-NO  271  Donald Donnerson auf großer Fahrt     2000-03-28  6.8  DM  2
-HO  272  Die Wunderblume     2000-04-25  6.8  DM  2
+MO  269  Die Lichtdiebe von Kristalon     2000-02-01  6.8  DM  2
+MOHO  270  Der niesende Geldsack     2000-02-29  6.8  DM  2
+HO  271  Donald Donnerson auf großer Fahrt     2000-03-28  6.8  DM  2
+MO  272  Die Wunderblume     2000-04-25  6.8  DM  2
 HO  273  Kleine Sensationen     2000-05-23  6.8  DM  2
 HO  274  Im Fußballfieber     2000-06-20  6.8  DM  2
 HO  275  Das Nest im Weltraum     2000-07-18  6.8  DM  2
-HO  276  Ein tolles Hobby     2000-08-15  6.8  DM  2
+MOHO  276  Ein tolles Hobby     2000-08-15  6.8  DM  2
 HO  277  Dabei sein ist alles     2000-09-12  6.8  DM  2
 HO  278  Der König der Tiefe     2000-10-10  6.8  DM  2
 HO  279  Eine lästige Allergie     2000-11-01  6.8  DM  2
-NO  280  Der Herr des Dschungels     2000-12-05  6.8  DM  2
+MO  280  Der Herr des Dschungels     2000-12-05  6.8  DM  2
 NO  281  Gefangen in Darkmoor     2001-01-02  6.8  DM  2
-BO  282  Am Anfang war das Eis     2001-01-30  6.8  DM  2
-BO  283  Die geheimnisvolle Maske     2001-02-28  6.8  DM  2
+HO  282  Am Anfang war das Eis     2001-01-30  6.8  DM  2
+MO  283  Die geheimnisvolle Maske     2001-02-28  6.8  DM  2
 NO  284  Ein verrücktes Pferderennen     2001-03-27  6.8  DM  2
 NO  285  Die Suche nach dem Superkraut     2001-04-24  6.8  DM  2
 NO  286  Unter Wölfen     2001-05-22  6.8  DM  2
@@ -300,7 +300,7 @@ HOHO  299  70 Jahre Superstar     2002-05-21  3.95  Euro  2
 HO  300  Jubiläums-Ausgabe     2002-06-25  3.95  Euro  2
 HO  301  Es kann nur einen geben!     2002-07-23  3.95  Euro  2
 HO  302  Der listige Lampengeist     2002-08-20  3.95  Euro  2
-XO  303  Riskanter Einsatz     2002-09-17  3.95  Euro  2
+MO  303  Riskanter Einsatz     2002-09-17  3.95  Euro  2
 HO  304  Im Strudel der Zeit     2002-10-15  3.95  Euro  2
 HO  305  Superheld im Anflug     2002-11-12  3.95  Euro  2
 HO  306  Onkel Dagobert blickt durch!     2002-12-10  3.95  Euro  2
@@ -328,7 +328,7 @@ HO  327  Bademeister Duck     2004-07-20  3.95  Euro  2
 HO  328  Fair geht vor!     2004-08-17  3.95  Euro  2
 HO  329  Unter Hypnose     2004-09-14  3.95  Euro  2
 HO  330  Der Supersänger     2004-10-12  3.95  Euro  2
-NO  331  In tierischer Mission     2004-11-09  3.95  Euro  2
+MO  331  In tierischer Mission     2004-11-09  3.95  Euro  2
 HO  332  Die Rückkehr des Rächers     2004-12-07  3.95  Euro  2
 HO  333  333     2005-01-04  4.2  Euro  2
 NO  334  Stromausfall in Entenhausen     2005-02-01  4.2  Euro  2
@@ -337,7 +337,7 @@ NO  336  Gefangen in der Wüste     2005-03-29  4.2  Euro  2
 NO  337  Die Superhelden     2005-04-26  4.2  Euro  2
 NO  338  Die Weltraumritter     2005-05-19  4.2  Euro  2
 NO  339  Ferien mit den Ducks     2005-06-21  4.2  Euro  2
-BO  340  Urlaubsgrüße aus Entenhausen     2005-07-19  4.2  Euro  2
+MO  340  Urlaubsgrüße aus Entenhausen     2005-07-19  4.2  Euro  2
 NO  341  Club der Milliardäre     2005-08-16  4.2  Euro  2
 NO  342  Gefangen im Spukschloss     2005-09-13  4.2  Euro  2
 MO  343  Ein Fall für Detektiv Duck     2005-10-11  4.2  Euro  2
@@ -348,12 +348,12 @@ NO  347  Spione wie wir!     2006-01-31  4.2  Euro  2
 HO  348  Das Geisterhaus     2006-02-28  4.2  Euro  2
 HO  349  Skandal in Entenhausen     2006-03-28  4.2  Euro  2
 HO  350  Jubiläums-Ausgabe LTB 350     2006-04-25  4.2  Euro  2
-NO  351  Volltreffer!     2006-05-23  4.2  Euro  2
+MO  351  Volltreffer!     2006-05-23  4.2  Euro  2
 HO  352  Reif für die Insel     2006-06-20  4.2  Euro  2
 NO  353  Donald taucht ab     2006-07-18  4.2  Euro  2
 NO  354  Das Geheimnis des Luna-Parks     2006-08-16  4.2  Euro  2
 NO  355  Ein Hundeleben!     2006-09-12  4.2  Euro  2
-NO  356  Scheriff gesucht!     2006-10-10  4.2  Euro  2
+MO  356  Scheriff gesucht!     2006-10-10  4.2  Euro  2
 NO  357  Rätsel um da Vinci     2006-11-07  4.2  Euro  2
 NO  358  Unheimliche Erbschaft     2006-12-05  4.2  Euro  2
 NO  359  Spion wider willen     2007-01-02  4.2  Euro  2
@@ -370,14 +370,14 @@ NO  369  40 Jahre Lustiges Taschenbuch     2007-10-09  4.2  Euro  2
 HO  370  Rollentausch     2007-11-06  4.2  Euro  2
 HO  371  Geld, Gold und Glück !     2007-12-04  4.2  Euro  2
 NO  372  Alarm !     2008-01-02  4.7  Euro  2
-MN  373  Flucht nach Duckland     2008-01-29  4.7  Euro  2
+HO  373  Flucht nach Duckland     2008-01-29  4.7  Euro  2
 NO  374  Donald blickt durch     2008-02-26  4.7  Euro  2
-MO  375  Patient Donald Duck     2008-03-25  4.7  Euro  2
-MO  376  Indiana Goof in: Sturz ins Abenteuer     2008-04-26  4.7  Euro  2
+HO  375  Patient Donald Duck     2008-03-25  4.7  Euro  2
+HO  376  Indiana Goof in: Sturz ins Abenteuer     2008-04-26  4.7  Euro  2
 NO  377  Finale !     2008-05-20  4.7  Euro  2
 NO  378  Endlich Ferien !     2008-06-17  4.7  Euro  2
 NO  379  Platsch!     2008-07-15  4.7  Euro  2
-MO  380  Ring frei!     2008-08-12  4.7  Euro  2
+HO  380  Ring frei!     2008-08-12  4.7  Euro  2
 HO  381  Die dunkle Seite des Glückstalers     2008-09-09  4.7  Euro  2
 HO  382  Welt ohne Farbe     2008-10-07  4.7  Euro  2
 NO  383  Happy Birthday Micky     2008-11-04  4.7  Euro  2
@@ -456,20 +456,31 @@ HO  455  80 Jahre Donald Duck
 HO  456  Dagobert auf Tour
 HO  457  Die Neffen sind los!
 MO  458  Donald ganz cool!
-MO  459  Der Fluch der Farben
-MO  460  Gold in Gefahr
-MO  461  Marsch durch Mittelwelt
+HO  459  Der Fluch der Farben
+HO  460  Gold in Gefahr
+HO  461  Marsch durch Mittelwelt
 XO  462  ?
-MO  463  Eiskalt erwischt
-MO  464  Die Jagd nach dem Falken
-HO  465
-HO  466
-BO  467  Moby Duck
-??  468
-BO  469  Start in den Sommer
-HO  470
-HO  471
-HO  472
+HO  463  Eiskalt erwischt
+HO  464  Die Jagd nach dem Falken
+MO  465  Im Bann der Hexe
+MO  466  Phantomime kehrt zurück
+MO  467  Moby Duck
+MO  468  Der Grillmeister
+MO  469  Start in den Sommer
+MO  470  Sommer ohne Ende
+MO  471  Die Rückkehr des ersten Phantomias
+MO  472  Gnadenlose Gegner
+MO  473  Biss zum Morgen
+MO  474  Ertappt
+HO  475  Gefährliche Galaxien
+HO  476  Der unverfrorene Schneemann
+HO  477  Diamanten Feuer
+HO  478  Weltweit im Einsatz
+BO  479  Führerschein
+BO  480  Der Burgermeister von Entenhausen
+
+
+
 
 # habe den Header nach unten gepackt damit die Zeilennummern den Heftnummern entsprechen, sonst fehlergefahr.
 # TODO: diesen Kommentar wieder entfernen
@@ -498,7 +509,7 @@ XO = Verschollen
 O  3  65 Jahre King of Comics
 O  23  Extreme Expeditionen
 O  25  Tatort Entenhausenden
-MO  55  Gipfelstürmer
+HO  55  Gipfelstürmer
 ==== Enten-Edition ====
 O  1  Die Stunde des Phantomias
 O  4  Mitternacht in Entenhausen
