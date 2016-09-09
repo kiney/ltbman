@@ -14,14 +14,19 @@ if SERVER == 'gevent' and __name__ == '__main__':
 
 from ltb import LtbDB
 
-from bottle import get
+from bottle import get, jinja2_view, Jinja2Template
 import bottle
 
 ltbdb = LtbDB(DBURL)
 
-@get('/')
-def index():
-    return str(ltbdb.get_all_ltbs())
+Jinja2Template.settings = {
+    'autoescape': True,
+}
+
+@get('/ltb/all')
+@jinja2_view('all.j2')
+def all():
+    return {'ltbs': ltbdb.get_all_ltbs()}
 
 
 if __name__ == '__main__':
