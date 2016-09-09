@@ -328,7 +328,7 @@ HO  327  Bademeister Duck     2004-07-20  3.95  Euro  2
 HO  328  Fair geht vor!     2004-08-17  3.95  Euro  2
 HO  329  Unter Hypnose     2004-09-14  3.95  Euro  2
 HO  330  Der Supersänger     2004-10-12  3.95  Euro  2
-MO  331  In tierischer Mission     2004-11-09  3.95  Euro  2
+BO  331  In tierischer Mission     2004-11-09  3.95  Euro  2
 HO  332  Die Rückkehr des Rächers     2004-12-07  3.95  Euro  2
 HO  333  333     2005-01-04  4.2  Euro  2
 NO  334  Stromausfall in Entenhausen     2005-02-01  4.2  Euro  2
@@ -353,7 +353,7 @@ HO  352  Reif für die Insel     2006-06-20  4.2  Euro  2
 NO  353  Donald taucht ab     2006-07-18  4.2  Euro  2
 NO  354  Das Geheimnis des Luna-Parks     2006-08-16  4.2  Euro  2
 NO  355  Ein Hundeleben!     2006-09-12  4.2  Euro  2
-MO  356  Scheriff gesucht!     2006-10-10  4.2  Euro  2
+BO  356  Scheriff gesucht!     2006-10-10  4.2  Euro  2
 NO  357  Rätsel um da Vinci     2006-11-07  4.2  Euro  2
 NO  358  Unheimliche Erbschaft     2006-12-05  4.2  Euro  2
 NO  359  Spion wider willen     2007-01-02  4.2  Euro  2
@@ -462,8 +462,8 @@ HO  461  Marsch durch Mittelwelt
 XO  462  ?
 HO  463  Eiskalt erwischt
 HO  464  Die Jagd nach dem Falken
-MO  465  Im Bann der Hexe
-MO  466  Phantomime kehrt zurück
+HO  465  Im Bann der Hexe
+BO  466  Phantomime kehrt zurück
 MO  467  Moby Duck
 MO  468  Der Grillmeister
 MO  469  Start in den Sommer
@@ -478,6 +478,10 @@ HO  477  Diamanten Feuer
 HO  478  Weltweit im Einsatz
 BO  479  Führerschein
 BO  480  Der Burgermeister von Entenhausen
+??  481  ??
+??  482  ??
+HO  483  So ein Stress
+HO  484  Einfach abhängen
 
 
 
