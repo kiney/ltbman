@@ -40,15 +40,19 @@ def get_from_file(fn):
         ltbs.append({'ltbid': nr, 'title': title, 'location': nloc, 'present': present})
     return ltbs
 
-def push_book_to_db(db):
+def push_book_to_db(db, ltb):
     '''
     db: records db handle
     '''
-    db.query()
+    db.query('INSERT INTO `ltbs`(`ltbid`,`title`,`present`,`location`, `dupes`) VALUES (:i,:t,:p,:l,:d);',
+        i =  ltb['ltbid'], t = ltb['title'], p = ltb['present'],
+        l = ltb['location'], d = ltb['location'])
 
 if __name__=='__main__':
     ltbs = get_from_file(FN)
     db = records.Database('sqlite:///%s'%(DB))
     for ltb in ltbs:
-        push_book_to_db(ltb)
-    print(ltbs)
+        print(ltb['ltbid'])
+        push_book_to_db(db, ltb)
+    #print(ltbs)
+    print('done!')
