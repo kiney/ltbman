@@ -459,7 +459,7 @@ MO  458  Donald ganz cool!
 HO  459  Der Fluch der Farben
 HO  460  Gold in Gefahr
 HO  461  Marsch durch Mittelwelt
-XO  462  ?
+XO  462  ??
 HO  463  Eiskalt erwischt
 HO  464  Die Jagd nach dem Falken
 HO  465  Im Bann der Hexe
@@ -478,8 +478,8 @@ HO  477  Diamanten Feuer
 HO  478  Weltweit im Einsatz
 BO  479  Führerschein
 BO  480  Der Burgermeister von Entenhausen
-??  481  ??
-??  482  ??
+XO  481  ??
+XO  482  ??
 HO  483  So ein Stress
 HO  484  Einfach abhängen
 
