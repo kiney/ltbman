@@ -8,6 +8,8 @@ URLPREFIX = 'http://home.kiney.de/ds-anmeldung'
 DEBUGMODE = True
 DBURL = 'sqlite:///ltb.db'
 
+# neue bücher MüSSEN mit Titel gemoved werden
+
 #gevent monkey patching MUST happen before other imports
 if SERVER == 'gevent' and __name__ == '__main__':
     from gevent import monkey; monkey.patch_all()
