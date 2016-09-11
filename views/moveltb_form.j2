@@ -1,0 +1,14 @@
+{% extends "base.j2" %}
+{% block content %}
+<h1>LTBs bewegen:</h1>
+<form action="{{ pfx }}/moveltb/move" method="post">
+    LTBs, Whitespace getrennte numerische Liste:<br>
+    <input type="text" name="ltbs">
+    <select name="location">
+    {% for l in locs %}
+        <option value="{{ l }}">{{ l }}</option>
+    {% endfor %}
+    </select>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

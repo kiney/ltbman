@@ -11,11 +11,11 @@ DBURL = 'sqlite:///ltb.db'
 
 from ltb import LtbDB
 
-from bottle import get, post, jinja2_view, Jinja2Template
+from bottle import get, post, jinja2_view, Jinja2Template, request, redirect
 import bottle
 
 ltbdb = LtbDB(DBURL)
-locs = ltbdb.lid.keys()
+locs = sorted(ltbdb.lid.keys())
 
 Jinja2Template.settings = {
     'autoescape': True,
@@ -39,19 +39,16 @@ def by_location(loc):
 @get('/moveltb/form')
 @jinja2_view('moveltb_form.j2')
 def moveltb_form():
-    #TODO
     return {'pfx': URLPREFIX, 'locs': locs}
 
 @post('/moveltb/move')
-def moveltb_form():
-    pass
-    #TODO. redirekt stuff
-
-@get('/moveltb/result')
 @jinja2_view('moveltb_result.j2')
 def moveltb_form():
-    #TODO
-    return {'pfx': URLPREFIX, 'locs': locs}
+    ltbs = request.forms.get('ltbs')
+    loc  = request.forms.get('location')
+    r = ltbdb.move_ltbs(ltbs, loc) #TODO location
+    return {'pfx': URLPREFIX, 'locs': locs, 'r': r}
+
 
 if __name__ == '__main__':
     #logging.basicConfig(filename='signup.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %Z')

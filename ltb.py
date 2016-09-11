@@ -13,7 +13,7 @@ import time
 
 class LtbDB():
     '''
-    database interface class
+    database abstraction class
     '''
     def __init__(self, dburl):
         self._dburl = dburl
@@ -82,16 +82,23 @@ WHERE ltbid = :ltbid'''
         with db.transaction():
             for ltb in ltbs:
                 r = db.query(q, ltbid = ltb, loc = loc)
+                #TODO check if presten
+                #check if ltb is int
                 if db.rowcount == 0:
                     result['failed'].append(ltb)
                 elif db.rowcount == 1:
                     result['moved'].append(ltb)
                 else:
                     raise RuntimeError('Mehr als ein LTB angefasst. BUG!')
+                #TODO: write move log
         return result
         
 
 if __name__ == '__main__':
+    '''
+    ignore this section
+    just testing stuff...
+    '''
     DBURL = 'sqlite:///ltb.db'
     l = LtbDB(DBURL)
     #print(l.lid)

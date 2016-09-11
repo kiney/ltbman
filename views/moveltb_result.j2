@@ -1,0 +1,8 @@
+{% extends "base.j2" %}
+{% block content %}
+<h1>Bewegte LTBs:</h1>
+<h2>Erfolgreich:</h2>
+{{ r['moved'] }}
+<h2>Probleme:</h2>
+{{ r['failed'] }}
+{% endblock %}
