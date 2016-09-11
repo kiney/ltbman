@@ -29,3 +29,8 @@ SELECT ltbs.ltbid, ltbs.title
 FROM ltbs
 INNER JOIN locations ON ltbs.location = locations.id
 WHERE locations.id = 1;
+
+--- ltb bewegen ---
+UPDATE ltbs
+SET location = 1
+WHERE ltbid = 132
