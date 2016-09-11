@@ -25,11 +25,15 @@ Jinja2Template.settings = {
 def index():
     return {'pfx': URLPREFIX}
 
-@get('/ltb/all')
+@get('/ltbs/all')
 @jinja2_view('all.j2')
 def all():
     return {'pfx': URLPREFIX, 'ltbs': ltbdb.get_all_ltbs()}
 
+@get('/ltbs/<loc>')
+@jinja2_view('by_location.j2')
+def all(loc):
+    return {'pfx': URLPREFIX, 'ltbs': ltbdb.get_ltbs_by_location(loc), 'loc': loc}
 
 if __name__ == '__main__':
     #logging.basicConfig(filename='signup.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %Z')

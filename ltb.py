@@ -37,12 +37,12 @@ class LtbDB():
         create location mappings for fast lookup
         (forward and backward)
         '''
-        lid = {}
-        rlid = {}
+        lid = {} # name -> id
+        rlid = {} # id -> name
         r = self.db.query('SELECT id, name FROM locations;')
         for i in r:
-            lid[i[0]] = i[1]
-            rlid[i[1]] = i[0]
+            rlid[i[0]] = i[1]
+            lid[i[1]] = i[0]
         self.lid = lid
         self.rlid = rlid
     
@@ -62,11 +62,22 @@ INNER JOIN locations ON ltbs.location = locations.id'''
         a = self.db.query(q)
         ltbs = list(map(dict, list(a)))
         return ltbs
-        
+    
+    def get_ltbs_by_location(self, loc):
+        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location
+FROM ltbs
+INNER JOIN locations ON ltbs.location = locations.id
+WHERE locations.id = :loc;'''
+        if isinstance(loc, str):
+            loc = self.lid[loc]
+        a = self.db.query(q, loc=loc)
+        ltbs = list(map(dict, list(a)))
+        return ltbs
 
 if __name__ == '__main__':
     l = LtbDB(DBURL)
     print(l.lid)
     print(l.rlid)
     print(l.get_ltb_by_id(256))
+    print(l.get_ltbs_by_location('Hannover'))
     #print(l.get_all_ltbs())
