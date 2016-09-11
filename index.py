@@ -2,17 +2,12 @@
 # -*- coding: utf-8 -*-
 
 #some config stuff
-#SERVER = 'gevent'
 SERVER = 'wsgiref'
-URLPREFIX = 'http://home.kiney.de/ds-anmeldung'
+URLPREFIX = 'http://localhost:8080'
 DEBUGMODE = True
 DBURL = 'sqlite:///ltb.db'
 
 # neue bücher MüSSEN mit Titel gemoved werden
-
-#gevent monkey patching MUST happen before other imports
-if SERVER == 'gevent' and __name__ == '__main__':
-    from gevent import monkey; monkey.patch_all()
 
 from ltb import LtbDB
 
@@ -25,10 +20,15 @@ Jinja2Template.settings = {
     'autoescape': True,
 }
 
+@get('/')
+@jinja2_view('index.j2')
+def index():
+    return {'pfx': URLPREFIX}
+
 @get('/ltb/all')
 @jinja2_view('all.j2')
 def all():
-    return {'ltbs': ltbdb.get_all_ltbs()}
+    return {'pfx': URLPREFIX, 'ltbs': ltbdb.get_all_ltbs()}
 
 
 if __name__ == '__main__':

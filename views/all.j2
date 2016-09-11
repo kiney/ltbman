@@ -1,16 +1,5 @@
-{# TODO: diese file als ltb liste oder so zum includen auslagern #}
-<title>LTBs</title>
-<table>
-    <tr>
-        <th>Nummer</th>
-        <th>Titel</th>
-        <th>Standort</th>
-    </tr>
-    {% for ltb in ltbs %}
-    <tr>
-        <td>{{ ltb['ltbid'] }}</td>
-        <td>{{ ltb['title'] }}</td>
-        <td>{{ ltb['location'] }}</td>
-    </tr>
-    {% endfor %}
-</table>
+{% extends "base.j2" %}
+{% block content %}
+<h1>Alle LTBs:</h1>
+{% include "ltbtable.j2" %}
+{% endblock %}

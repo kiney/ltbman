@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>Nummer</th>
+        <th>Titel</th>
+        <th>Standort</th>
+    </tr>
+    {% for ltb in ltbs %}
+    <tr>
+        <td>{{ ltb['ltbid'] }}</td>
+        <td>{{ ltb['title'] }}</td>
+        <td>{{ ltb['location'] }}</td>
+    </tr>
+    {% endfor %}
+</table>
