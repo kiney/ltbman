@@ -79,18 +79,22 @@ WHERE locations.id = :loc;'''
         q = '''UPDATE ltbs
 SET location = :loc
 WHERE ltbid = :ltbid'''
+        #TODO correct moves table in db.sql
+        q2 = 'INSERT INTO moves (ltbid, OldLocation, NewLocation) VALUES (:ltbid, :old, :new);'
+        q3 = 'SELECT location FROM ltbs where ltbid=:ltbid;'
         with db.transaction():
             for ltb in ltbs:
+                oldloc = db.query(q3, ltbid = ltb)[0][0]
                 r = db.query(q, ltbid = ltb, loc = loc)
-                #TODO check if presten
+                #TODO check if prestent
                 #check if ltb is int
                 if db.rowcount == 0:
                     result['failed'].append(ltb)
                 elif db.rowcount == 1:
                     result['moved'].append(ltb)
+                    db.query(q2, ltbid = ltb, old = oldloc, new = loc)
                 else:
                     raise RuntimeError('Mehr als ein LTB angefasst. BUG!')
-                #TODO: write move log
         return result
         
 
