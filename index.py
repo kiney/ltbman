@@ -9,6 +9,11 @@ DBURL = 'sqlite:///ltb.db'
 
 # neue bücher MüSSEN mit Titel gemoved werden
 
+# Feature request von Dirk:
+# Bücher in der Liste anchecken um sie moven zu können
+
+# css class definitionen
+
 from ltb import LtbDB
 
 from bottle import get, post, jinja2_view, Jinja2Template, request, redirect
