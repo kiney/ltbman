@@ -6,7 +6,7 @@
         <th>Standort</th>
     </tr>
     {% for ltb in ltbs %}
-    <tr>
+    <tr class="ltb_present{{ ltb['present'] }}">
         <td>{{ ltb['ltbid'] }}</td>
         <td>{{ ltb['title'] }}</td>
         <td>{{ ltb['location'] }}</td>

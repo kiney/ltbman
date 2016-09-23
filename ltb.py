@@ -34,6 +34,13 @@ class LtbDB():
         self.lid = lid
         self.rlid = rlid
     
+    def get_stats(self):
+        '''
+        return some general stats for the index page
+        '''
+        #TODO
+        return {}
+    
     def get_ltb_by_id(self, ltbid):
         q ='''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.dupes, ltbs.present
 FROM ltbs
@@ -44,7 +51,7 @@ WHERE ltbs.ltbid = :ltbid;
         return ltb
     
     def get_all_ltbs(self):
-        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location
+        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
 FROM ltbs
 INNER JOIN locations ON ltbs.location = locations.id'''
         a = self.db.query(q)
@@ -52,7 +59,7 @@ INNER JOIN locations ON ltbs.location = locations.id'''
         return ltbs
     
     def get_ltbs_by_location(self, loc):
-        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location
+        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
 FROM ltbs
 INNER JOIN locations ON ltbs.location = locations.id
 WHERE locations.id = :loc;'''

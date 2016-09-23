@@ -16,7 +16,7 @@ DBURL = 'sqlite:///ltb.db'
 
 from ltb import LtbDB
 
-from bottle import get, post, jinja2_view, Jinja2Template, request, redirect
+from bottle import get, post, jinja2_view, Jinja2Template, request, redirect, static_file
 import bottle
 
 ltbdb = LtbDB(DBURL)
@@ -25,6 +25,10 @@ locs = sorted(ltbdb.lid.keys())
 Jinja2Template.settings = {
     'autoescape': True,
 }
+
+@get('/static/<filename>')
+def staticfiles(filename):
+    return static_file(filename, root='static')
 
 @get('/')
 @jinja2_view('index.j2')
