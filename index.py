@@ -5,19 +5,19 @@ import os
 import yaml
 #DEBUG = os.environ.get('DEBUG') or False
 
-#some default config stuff
+#some config stuff
 config = yaml.load(open('config.yaml', 'r'))
-SERVER = config['SERVER']
-URLPREFIX = config['URLPREFIX']
-DEBUGMODE = config['DEBUGMODE']
-DBURL = config['DBURL']
+SERVER = config['server']
+PORT = config['port']
+URLPREFIX = config['urlprefix']
+DEBUGMODE = config['debugmode']
+DBURL = config['dburl']
+HOST = config['host']
 
 # neue bücher MüSSEN mit Titel gemoved werden
 
 # Feature request von Dirk:
 # Bücher in der Liste anchecken um sie moven zu können
-
-# css class definitionen
 
 from ltb import LtbDB
 
@@ -72,4 +72,6 @@ def moveltb_form():
 if __name__ == '__main__':
     #logging.basicConfig(filename='signup.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %Z')
     bottle.debug(DEBUGMODE)
-    bottle.run(host='127.0.0.1', port=8080, server=SERVER)
+    bottle.run(host=HOST, port=PORT, server=SERVER)
+else:
+    app = bottle.Bottle()

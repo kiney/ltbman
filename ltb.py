@@ -111,7 +111,7 @@ WHERE ltbid = :ltbid'''
                     result['moved'].append(ltb)
                     db.query(q2, ltbid = ltb, old = oldloc, new = loc)
                 else:
-                    raise RuntimeError('Mehr als ein LTB angefasst. BUG!')
+                    raise RuntimeError('Mehr als ein LTB auf einmal angefasst. BUG!')
         return result
         
 
