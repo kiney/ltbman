@@ -60,7 +60,7 @@ def moveltb_form():
 def moveltb_form():
     ltbs = request.forms.get('ltbs')
     loc  = request.forms.get('location')
-    r = ltbdb.move_ltbs(ltbs, loc) #TODO location
+    r = ltbdb.move_ltbs(ltbs, loc)
     return {'pfx': URLPREFIX, 'locs': locs, 'r': r}
 
 

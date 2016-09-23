@@ -98,13 +98,14 @@ WHERE ltbid = :ltbid'''
         #TODO correct moves table in db.sql
         q2 = 'INSERT INTO moves (ltbid, OldLocation, NewLocation) VALUES (:ltbid, :old, :new);'
         q3 = 'SELECT location FROM ltbs where ltbid=:ltbid;'
+        q4 = 'SELECT present FROM ltbs where ltbid=:ltbid;'
         with db.transaction():
             for ltb in ltbs:
                 oldloc = db.query(q3, ltbid = ltb)[0][0]
-                r = db.query(q, ltbid = ltb, loc = loc)
-                #TODO check if prestent
-                #check if ltb is int
-                if db.rowcount == 0:
+                p = int(db.query(q4, ltbid = ltb)[0][0])
+                if p == 1:
+                    r = db.query(q, ltbid = ltb, loc = loc)
+                if db.rowcount == 0 or p == 0:
                     result['failed'].append(ltb)
                 elif db.rowcount == 1:
                     result['moved'].append(ltb)
