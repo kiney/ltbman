@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#some config stuff
-SERVER = 'wsgiref'
-URLPREFIX = 'http://localhost:8080'
-DEBUGMODE = True
-DBURL = 'sqlite:///ltb.db'
+import os
+import yaml
+#DEBUG = os.environ.get('DEBUG') or False
+
+#some default config stuff
+config = yaml.load(open('config.yaml', 'r'))
+SERVER = config['SERVER']
+URLPREFIX = config['URLPREFIX']
+DEBUGMODE = config['DEBUGMODE']
+DBURL = config['DBURL']
 
 # neue bücher MüSSEN mit Titel gemoved werden
 

@@ -1,0 +1,4 @@
+SERVER: wsgiref
+URLPREFIX: http://localhost:8080
+DEBUGMODE: true
+DBURL: sqlite:///ltb.db
