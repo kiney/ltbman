@@ -74,4 +74,4 @@ if __name__ == '__main__':
     bottle.debug(DEBUGMODE)
     bottle.run(host=HOST, port=PORT, server=SERVER)
 else:
-    app = bottle.Bottle()
+    app = bottle.default_application()
