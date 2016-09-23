@@ -40,6 +40,11 @@ def index():
 def all():
     return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_all_ltbs()}
 
+@get('/ltbs/lost')
+@jinja2_view('lost.j2')
+def all():
+    return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_lost_ltbs()}
+
 @get('/ltbs/<loc>')
 @jinja2_view('by_location.j2')
 def by_location(loc):

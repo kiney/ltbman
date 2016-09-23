@@ -58,6 +58,15 @@ INNER JOIN locations ON ltbs.location = locations.id'''
         ltbs = list(map(dict, list(a)))
         return ltbs
     
+    def get_lost_ltbs(self):
+        q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
+FROM ltbs
+INNER JOIN locations ON ltbs.location = locations.id
+WHERE locations.id = 0 AND ltbs.present = 1'''
+        a = self.db.query(q)
+        ltbs = list(map(dict, list(a)))
+        return ltbs
+    
     def get_ltbs_by_location(self, loc):
         q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
 FROM ltbs
