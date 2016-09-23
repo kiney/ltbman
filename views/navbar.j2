@@ -1,11 +1,11 @@
 <div class="navbar">
 <p>
-    <a href="{{ pfx }}/" class="navbuttom">start</a>
-    <a href="{{ pfx }}/ltbs/all" class="navbuttom">alle LTBs</a>
+    <a href="{{ pfx }}/" class="navbutton">start</a>
+    <a href="{{ pfx }}/ltbs/all" class="navbutton">alle LTBs</a>
     {% for l in locs %}
-        <a href="{{ pfx }}/ltbs/{{ l }}" class="navbuttom">{{ l }}</a>
+        <a href="{{ pfx }}/ltbs/{{ l }}" class="navbutton">{{ l }}</a>
     {% endfor %}
-    <a href="{{ pfx }}/ltbs/lost" class="navbuttom">Verschollen</a>
-    <a href="{{ pfx }}/moveltb/form" class="navbuttom">LTBs umbuchen</a>
+    <a href="{{ pfx }}/ltbs/lost" class="navbutton">Verschollen</a>
+    <a href="{{ pfx }}/moveltb/form" class="navbutton">LTBs umbuchen</a>
 </p>
 </div>

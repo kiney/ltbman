@@ -5,3 +5,11 @@
 .ltb_present1 {
     color: green;
 }
+
+.navbutton {
+    color: DarkGreen;
+    border: solid;
+    border-width: 2px;
+    padding: 4px;
+    margin: 2px;
+}
