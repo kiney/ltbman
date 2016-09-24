@@ -10,6 +10,7 @@
     color: DarkGreen;
     border: solid;
     border-width: 2px;
+    line-height: 250%;
     padding: 4px;
     margin: 2px;
 }
