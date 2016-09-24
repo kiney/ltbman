@@ -70,8 +70,7 @@ def moveltb_form():
     r = ltbdb.move_ltbs(ltbs, loc)
     return {'pfx': URLPREFIX, 'locs': locs, 'r': r}
 
-
+bottle.debug(DEBUGMODE)
 if __name__ == '__main__':
     #logging.basicConfig(filename='signup.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %Z')
-    bottle.debug(DEBUGMODE)
     app.run(host=HOST, port=PORT, server=SERVER)
