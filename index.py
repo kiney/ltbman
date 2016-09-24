@@ -24,6 +24,8 @@ from ltb import LtbDB
 from bottle import get, post, jinja2_view, Jinja2Template, request, redirect, static_file
 import bottle
 
+app = application = bottle.Bottle()
+
 ltbdb = LtbDB(DBURL)
 locs = sorted(ltbdb.lid.keys())
 
@@ -31,36 +33,36 @@ Jinja2Template.settings = {
     'autoescape': True,
 }
 
-@get('/static/<filename>')
+@app.get('/static/<filename>')
 def staticfiles(filename):
     return static_file(filename, root='static')
 
-@get('/')
+@app.get('/')
 @jinja2_view('index.j2')
 def index():
     return {'pfx': URLPREFIX, 'locs': locs}
 
-@get('/ltbs/all')
+@app.get('/ltbs/all')
 @jinja2_view('all.j2')
 def all():
     return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_all_ltbs()}
 
-@get('/ltbs/lost')
+@app.get('/ltbs/lost')
 @jinja2_view('lost.j2')
 def all():
     return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_lost_ltbs()}
 
-@get('/ltbs/<loc>')
+@app.get('/ltbs/<loc>')
 @jinja2_view('by_location.j2')
 def by_location(loc):
     return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_ltbs_by_location(loc), 'loc': loc}
 
-@get('/moveltb/form')
+@app.get('/moveltb/form')
 @jinja2_view('moveltb_form.j2')
 def moveltb_form():
     return {'pfx': URLPREFIX, 'locs': locs}
 
-@post('/moveltb/move')
+@app.post('/moveltb/move')
 @jinja2_view('moveltb_result.j2')
 def moveltb_form():
     ltbs = request.forms.get('ltbs')
@@ -72,6 +74,4 @@ def moveltb_form():
 if __name__ == '__main__':
     #logging.basicConfig(filename='signup.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %Z')
     bottle.debug(DEBUGMODE)
-    bottle.run(host=HOST, port=PORT, server=SERVER)
-else:
-    app = bottle.default_application()
+    app.run(host=HOST, port=PORT, server=SERVER)
