@@ -1,0 +1,16 @@
+{% extends "base.j2" %}
+{% block content %}
+<h1>LTB einbuchen:</h1>
+<form action="{{ pfx }}/addltb/move" method="post">
+    Neues LTB einbuchen:<br>
+    ACHTUNG! TODO! NICHT IMPLEMENTIERT!<br>
+    Nr: <input size="4" type="text" name="ltbid">
+    Titel: <input type="text" name="title">
+    <select name="location">
+    {% for l in locs %}
+        <option value="{{ l }}">{{ l }}</option>
+    {% endfor %}
+    </select>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

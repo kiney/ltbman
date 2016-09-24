@@ -62,6 +62,11 @@ def by_location(loc):
 def moveltb_form():
     return {'pfx': URLPREFIX, 'locs': locs}
 
+@app.get('/addltb/form')
+@jinja2_view('addltb_form.j2')
+def moveltb_form():
+    return {'pfx': URLPREFIX, 'locs': locs}
+
 @app.post('/moveltb/move')
 @jinja2_view('moveltb_result.j2')
 def moveltb_form():
