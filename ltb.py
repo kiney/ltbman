@@ -80,7 +80,7 @@ WHERE locations.id = :loc;'''
 
     def move_ltbs(self, ltbs, loc):
         '''
-        move one or more LTB to dest
+        move one or more LTB to loc
         
         ltbs can be either an array of numbers or a space seperated string
         return: list of whats been done
@@ -113,7 +113,12 @@ WHERE ltbid = :ltbid'''
                 else:
                     raise RuntimeError('Mehr als ein LTB auf einmal angefasst. BUG!')
         return result
-        
+    
+    def add_ltb(self, ltb, loc):
+        '''
+        add a new LTB with inital location
+        '''
+        return False #TODO
 
 if __name__ == '__main__':
     '''

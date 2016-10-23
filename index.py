@@ -62,11 +62,6 @@ def by_location(loc):
 def moveltb_form():
     return {'pfx': URLPREFIX, 'locs': locs}
 
-@app.get('/addltb/form')
-@jinja2_view('addltb_form.j2')
-def moveltb_form():
-    return {'pfx': URLPREFIX, 'locs': locs}
-
 @app.post('/moveltb/move')
 @jinja2_view('moveltb_result.j2')
 def moveltb_form():
@@ -74,6 +69,19 @@ def moveltb_form():
     loc  = request.forms.get('location')
     r = ltbdb.move_ltbs(ltbs, loc)
     return {'pfx': URLPREFIX, 'locs': locs, 'r': r}
+
+@app.get('/addltb/form')
+@jinja2_view('addltb_form.j2')
+def moveltb_form():
+    return {'pfx': URLPREFIX, 'locs': locs}
+
+@app.post('/addltb/add')
+@jinja2_view('addltb_result.j2')
+def moveltb_form():
+    ltb = request.forms.get('ltb')
+    loc  = request.forms.get('location')
+    r = ltbdb.add_ltb(ltb, loc)
+    return {'pfx': URLPREFIX, 'locs': locs}
 
 bottle.debug(DEBUGMODE)
 if __name__ == '__main__':
