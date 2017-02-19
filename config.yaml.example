@@ -1,6 +1,6 @@
 server: wsgiref
 urlprefix: http://localhost:8080
 debugmode: true
-dburl: sqlite:///ltb.db
+dburl: sqlite:////var/lib/ltbman/ltb.db
 port: 8080
 host: 127.0.0.1
