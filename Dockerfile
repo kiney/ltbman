@@ -36,8 +36,7 @@ RUN chmod +x /tini
 ENTRYPOINT ["/tini", "--"]
 
 # get latest ltbman from github
-ADD https://github.com/kiney/ltbman/archive/master.zip /opt/ltbman.zip
-RUN cd /opt/ && unzip ltbman.zip && mv ltbman-master ltbman && rm ltbman.zip
+ADD . /opt/ltbman
 ADD https://github.com/kiney/records/archive/master.zip /opt/ltbman/records.zip
 RUN cd /opt/ltbman && rm -rf records && unzip records.zip && mv records-master records && rm records.zip
 
