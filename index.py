@@ -24,7 +24,7 @@ from ltb import LtbDB
 from bottle import get, post, jinja2_view, Jinja2Template, request, redirect, static_file
 import bottle
 
-app = application = bottle.Bottle()
+app = bottle.Bottle()
 
 ltbdb = LtbDB(DBURL)
 locs = sorted(ltbdb.lid.keys())
