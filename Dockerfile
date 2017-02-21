@@ -37,8 +37,9 @@ ENTRYPOINT ["/tini", "--"]
 
 # get latest ltbman from github
 ADD . /opt/ltbman
-ADD https://github.com/kiney/records/archive/master.zip /opt/ltbman/records.zip
-RUN cd /opt/ltbman && rm -rf records && unzip records.zip && mv records-master records && rm records.zip
+# does docker cloud check out subrepos? lets find out...
+#ADD https://github.com/kiney/records/archive/master.zip /opt/ltbman/records.zip
+#RUN cd /opt/ltbman && rm -rf records && unzip records.zip && mv records-master records && rm records.zip
 
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
