@@ -43,35 +43,34 @@ class LtbDB():
     
     def get_ltb_by_id(self, ltbid):
         q ='''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.dupes, ltbs.present
-FROM ltbs
-INNER JOIN locations ON ltbs.location = locations.id
-WHERE ltbs.ltbid = :ltbid;
-'''
+        FROM ltbs
+        INNER JOIN locations ON ltbs.location = locations.id
+        WHERE ltbs.ltbid = :ltbid;'''
         ltb = self.db.query(q, ltbid = ltbid)[0].as_dict()
         return ltb
     
     def get_all_ltbs(self):
         q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
-FROM ltbs
-INNER JOIN locations ON ltbs.location = locations.id'''
+        FROM ltbs
+        INNER JOIN locations ON ltbs.location = locations.id'''
         a = self.db.query(q)
         ltbs = list(map(dict, list(a)))
         return ltbs
     
     def get_lost_ltbs(self):
         q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
-FROM ltbs
-INNER JOIN locations ON ltbs.location = locations.id
-WHERE locations.id = 0 AND ltbs.present = 1'''
+        FROM ltbs
+        INNER JOIN locations ON ltbs.location = locations.id
+        WHERE locations.id = 0 AND ltbs.present = 1'''
         a = self.db.query(q)
         ltbs = list(map(dict, list(a)))
         return ltbs
     
     def get_ltbs_by_location(self, loc):
         q = '''SELECT ltbs.ltbid, ltbs.title, locations.name AS location, ltbs.present
-FROM ltbs
-INNER JOIN locations ON ltbs.location = locations.id
-WHERE locations.id = :loc;'''
+        FROM ltbs
+        INNER JOIN locations ON ltbs.location = locations.id
+        WHERE locations.id = :loc;'''
         if isinstance(loc, str):
             loc = self.lid[loc]
         a = self.db.query(q, loc=loc)
@@ -93,8 +92,8 @@ WHERE locations.id = :loc;'''
         db = records.Database(self._dburl) #local db handle for thread-safety
         #db = self.db
         q = '''UPDATE ltbs
-SET location = :loc
-WHERE ltbid = :ltbid'''
+        SET location = :loc
+        WHERE ltbid = :ltbid'''
         #TODO correct moves table in db.sql
         q2 = 'INSERT INTO moves (ltbid, OldLocation, NewLocation) VALUES (:ltbid, :old, :new);'
         q3 = 'SELECT location FROM ltbs where ltbid=:ltbid;'
