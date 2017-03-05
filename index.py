@@ -9,7 +9,7 @@ import yaml
 config = yaml.load(open('config.yaml', 'r'))
 SERVER = config['server']
 PORT = config['port']
-URLPREFIX = config['urlprefix']
+URLPREFIX = os.environ.get('URLPREFIX') or config['urlprefix']
 DEBUGMODE = config['debugmode']
 DBURL = config['dburl']
 HOST = config['host']
