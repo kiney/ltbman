@@ -122,7 +122,9 @@ class LtbDB():
         db = records.Database(self._dburl) #local db handle for thread-safety
         q = '''INSERT INTO ltbs (ltbid,title,present,location)
         VALUES (:ltbid,:title,1,:loc);'''
+        qd = 'DELETE FROM ltbs WHERE ltbid=:ltbid';
         with db.transaction():
+            db.query(qd, ltbid = ltb)
             db.query(q, ltbid = ltb, title = title, loc = loc)
         return ltb
 

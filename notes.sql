@@ -50,3 +50,6 @@ JOIN locations l2 ON m.NewLocation = l2.id
 --- einfügen
 INSERT INTO ltbs (ltbid,title,present,location)
 VALUES (1320,'blaasgfdgah blub',1,1);
+
+--- löschen
+DELETE FROM ltbs WHERE ltbid=6;
