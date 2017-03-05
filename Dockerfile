@@ -10,7 +10,6 @@ RUN apt-get update \
     locales \
     unzip \
     python3-pip \
-    python3-bottle \
     python3-jinja2 \
     python3-yaml
 
@@ -19,7 +18,7 @@ ENV LANGUAGE C.UTF-8
 ENV LC_ALL C.UTF-8
 
 # install gunicorn
-RUN pip3 install gunicorn records
+RUN pip3 install gunicorn records bottle
 
 RUN useradd -ms /bin/bash ltbman
 RUN mkdir /var/lib/ltbman
