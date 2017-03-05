@@ -6,7 +6,7 @@ then
     cp /opt/ltbman/ltb.db.example /var/lib/ltbman/ltb.db
 fi
 
-chown ltbman:ltbman /var/lib/ltbman/ltb.db
+chown -R ltbman:ltbman /var/lib/ltbman
 #chmod 0600 /var/lib/ltbman/ltb.db
 
 # for n cores use 2n+1 workers
