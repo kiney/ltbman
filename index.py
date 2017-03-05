@@ -49,7 +49,7 @@ def all():
 
 @app.get('/ltbs/lost')
 @jinja2_view('lost.j2')
-def all():
+def lost():
     return {'pfx': URLPREFIX, 'locs': locs, 'ltbs': ltbdb.get_lost_ltbs()}
 
 @app.get('/ltbs/<loc>')
@@ -64,7 +64,7 @@ def moveltb_form():
 
 @app.post('/moveltb/move')
 @jinja2_view('moveltb_result.j2')
-def moveltb_form():
+def moveltb_result():
     ltbs = request.forms.get('ltbs')
     loc  = request.forms.get('location')
     r = ltbdb.move_ltbs(ltbs, loc)
@@ -72,16 +72,17 @@ def moveltb_form():
 
 @app.get('/addltb/form')
 @jinja2_view('addltb_form.j2')
-def moveltb_form():
+def addltb_form():
     return {'pfx': URLPREFIX, 'locs': locs}
 
 @app.post('/addltb/add')
 @jinja2_view('addltb_result.j2')
-def moveltb_form():
-    ltb = request.forms.get('ltb')
-    loc  = request.forms.get('location')
-    r = ltbdb.add_ltb(ltb, loc)
-    return {'pfx': URLPREFIX, 'locs': locs}
+def addltb_result():
+    ltb = request.forms.get('ltbid')
+    title = request.forms.get('title')
+    loc = request.forms.get('location')
+    r = ltbdb.add_ltb(ltb, title, loc)
+    return {'pfx': URLPREFIX, 'locs': locs, 'loc': loc, 'ltb': ltb, 'title': title}
 
 bottle.debug(DEBUGMODE)
 if __name__ == '__main__':

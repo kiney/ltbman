@@ -46,3 +46,7 @@ SELECT m.ltbid, l1.name AS old, l2.name AS new, m.Time
 FROM moves m
 JOIN locations l1 ON m.OldLocation = l1.id
 JOIN locations l2 ON m.NewLocation = l2.id
+
+--- einfügen
+INSERT INTO ltbs (ltbid,title,present,location)
+VALUES (1320,'blaasgfdgah blub',1,1);

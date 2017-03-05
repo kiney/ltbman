@@ -114,11 +114,18 @@ WHERE ltbid = :ltbid'''
                     raise RuntimeError('Mehr als ein LTB auf einmal angefasst. BUG!')
         return result
     
-    def add_ltb(self, ltb, loc):
+    def add_ltb(self, ltb, title, loc):
         '''
         add a new LTB with inital location
         '''
-        return False #TODO
+        if isinstance(loc, str):
+            loc = self.lid[loc]
+        db = records.Database(self._dburl) #local db handle for thread-safety
+        q = '''INSERT INTO ltbs (ltbid,title,present,location)
+        VALUES (:ltbid,:title,1,:loc);'''
+        with db.transaction():
+            db.query(q, ltbid = ltb, title = title, loc = loc)
+        return ltb
 
 if __name__ == '__main__':
     '''
