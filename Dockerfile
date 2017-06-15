@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER Jannik Winkel <jannik.winkel@kiney.de>
+
 ENV VERSION "1"
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -34,11 +36,7 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-amd64
 RUN chmod +x /tini
 ENTRYPOINT ["/tini", "--"]
 
-# get latest ltbman from github
 ADD . /opt/ltbman
-# does docker cloud check out subrepos? lets find out...
-#ADD https://github.com/kiney/records/archive/master.zip /opt/ltbman/records.zip
-#RUN cd /opt/ltbman && rm -rf records && unzip records.zip && mv records-master records && rm records.zip
 
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
